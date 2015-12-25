@@ -27,6 +27,7 @@
     + Create metadata descriptions for important pages
     + Check for canonical domain issues (e.g. variations in links to http://site.com http://www.site.com http://www.site.com/index.html should be reduced to a consistent style)
     + Ensure content is marked up semantically/correctly
+    + Check that pagination is properly formatted and working properly
 
 ### Standards and Validations
 
