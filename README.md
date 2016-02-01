@@ -4,7 +4,7 @@
 
 + Typography and Layout:
     + Check for incorrect punctuation marks, particularly apostrophes, quotation marks, and hyphens/dashes
-    + Check headings for where you could potentially use ligatures
+    + Check headings for widows/orphans
     + Check for widow/orphan terms in important paragraphs
 
 + Spelling, Grammar, and Consistency:
@@ -17,7 +17,6 @@
 + Other:
     + Check for hard-coded links to staging domain (i.e. ensure all links will change to the ‘live’ URL/domain when site is launched)
     + Ensure no test content on site
-    + Check how important pages (e.g. content items) print
     + Ensure that all necessary meta information is filled out (title, description, etc.)
     + For redesigns, ensure important old/existing URLs are redirected to relevant new URLs, if the URL scheme is changing
     + Check all “hidden copy” (e.g. alt text, transcriptions, text in JavaScript functions)
@@ -37,6 +36,7 @@
     + All important content should be visible to users who have JavaScript turned off
     + Check site in all major browsers and older browsers that need support
     + Ensure that responsive layouts look good at all screen sizes and resolutions
+    + Check site on Tablet and Mobile devices
 
 + Validation and Code Quality:
     + HTML Validation
@@ -44,17 +44,19 @@
     + CSS Validation
 
 ### Security
+
 + Ensure that all data is sanitized and validated
-+ Form data should be validation on the Front-End and Back-End
++ Form data should be validated on the Front-End and Back-End
 + Use .htaccess to block access to files that should remain secure Configure backup schedule, and test recovery from backup
 + Protect any sensitive pages (e.g. administration area)
 + Use robots.txt where necessary
-+ Security/Penetration test
++ Security test
 + Turn-off verbose error reporting
 + Check disk space/capacity
 + Set up email/SMS monitoring/alerts (e.g. for errors, server warnings); consider internal and external)
 
 ### Search Engine Visibility, SEO Metrics
+
 + Check for target keyword usage in general content
 + Check format (user/search engine friendliness) or URLs
 + Set up Google Analytics, FeedBurner, Cloudflare, and any other packages for measuring ongoing success
@@ -67,21 +69,22 @@
 + Ensure all social media meta links are present
 
 ### Functional Testing
+
 + Check all bespoke/complex functionality
 + Check search functionality (including relevance of results)
 + Check on common variations of browser
 + Check on common variations of screen resolution
 + Test all forms, including anti-spam features, response emails/text, etc.
-+ Test without JavaScript, Flash, and other plug-ins
++ Test without JavaScript
 + Check all external links are valid
 
 ### Performance & Optimization
+
 + Load Test
     + Check image optimization
     + Check and implement caching where necessary
     + Check total page size/download time
 + Minify/compress static (JavaScript/HTML/CSS) files
-    + Optimize your CSS; use short image paths; make full use of “cascading nature of CSS, etc.
 + Check correct database indexing
 + Check configuration at every level (Web server, Database, any other software e.g. Content Management System
 + Configure server-based logging/measurement tools (e.g. database/web server logging)
@@ -89,8 +92,11 @@
 + Use icon fonts where appropriate
 
 ### Finishing Touches
+
++ Create HTML sitemap
 + Create custom 404/error pages
 + Create a favicon
++ Create any needed "Thank You" pages and ensure that these are working properly
 + Marketing
     + Set up any relevant social media
     + Link social media to site
